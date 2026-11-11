@@ -1,0 +1,40 @@
+[🏠 Trang chủ](../../README.md) › [Blade](../../dong-xe/blade.md) › **BO0848**
+
+# BO0848 · Blade 2019 K57 Xanh B189 đĩa
+
+<img src="../../anh/BO0848.jpg" alt="BO0848" width="480">
+
+| | |
+|---|---|
+| **Mã bộ** | `BO0848` |
+| **Tên bộ** | Bộ nhựa (Dàn áo) Blade 2019 K57 Xanh B189 đĩa |
+| **Đời xe** | K57 Balde số 2019 màu Xanh - B189 |
+| **Model** | J26,J27,J28 |
+| **Dòng xe** | Blade |
+| **Số chi tiết** | 17 |
+
+**Bộ liên quan:** [BO0848.1](BO0848.1-blade-2019-k57-xanh-b189-co.md)
+
+## Chi tiết trong bộ
+
+| STT | Mã chi tiết | Tên chi tiết | Dùng chung | Mã thay thế | Ghi chú |
+|---:|---|---|:---:|---|---|
+| 1 | [`53205K57A00ZD`](../../tra-ma/5320.md#53205k57a00zd) | Nắp trước tay lái \*B189C\* |  |  |  |
+| 2 | [`53250K57A00ZA`](../../tra-ma/5325.md#53250k57a00za) | Bộ ốp nhựa sau tay lái \*NH1\* | ✔ |  |  |
+| 3 | [`61100K57V00ZF`](../../tra-ma/611.md#61100k57v00zf) | Chắn bùn trước \*B189C\* |  |  |  |
+| 4 | [`61200KWW640ZB`](../../tra-ma/612.md#61200kww640zb) | Chắn bùn B trước \*NH1\* | ✔ |  |  |
+| 5 | [`64200K57A70ZE`](../../tra-ma/642.md#64200k57a70ze) | Bộ ốp trước trên \*B189C\* |  |  |  |
+| 6 | [`64320K57V00`](../../tra-ma/6432.md#64320k57v00) | Ốp ống yếm chính | ✔ |  |  |
+| 7 | [`64340K57A00`](../../tra-ma/6434.md#64340k57a00) | Ốp trung tâm | ✔ |  |  |
+| 8 | [`64400K57V00ZG`](../../tra-ma/6440.md#64400k57v00zg) | Ốp ống yếm phải \*B189C\* |  |  |  |
+| 9 | [`64450K57V00ZH`](../../tra-ma/6445.md#64450k57v00zh) | Ốp ống yếm trái \*B189C\* |  |  |  |
+| 10 | [`64560K57V00ZA`](../../tra-ma/645.md#64560k57v00za) | Ốp dưới sườn phải | ✔ |  |  |
+| 11 | [`64565K57V00ZA`](../../tra-ma/645.md#64565k57v00za) | Ốp dưới sườn trái | ✔ |  |  |
+| 12 | [`64600K57A70ZA`](../../tra-ma/6460.md#64600k57a70za) | Bộ ốp sườn phải \*B189C\* |  |  |  |
+| 13 | [`64650K57A70ZA`](../../tra-ma/6465.md#64650k57a70za) | Bộ ốp sườn trái \*B189C\* |  |  |  |
+| 14 | [`64750K57A70ZA`](../../tra-ma/647.md#64750k57a70za) | Bộ cánh yếm phải \*B189C\* |  |  |  |
+| 15 | [`64770K57A70ZA`](../../tra-ma/647.md#64770k57a70za) | Bộ cánh yếm trái \*B189C\* |  |  |  |
+| 16 | [`80110K57V00ZC`](../../tra-ma/8011.md#80110k57v00zc) | Bộ chắn bùn sau | ✔ |  |  |
+| 17 | [`83500K57V00ZC`](../../tra-ma/8350.md#83500k57v00zc) | Bộ ốp đuôi sau xe | ✔ |  |  |
+
+<sub>Cập nhật 11/11/2026</sub>

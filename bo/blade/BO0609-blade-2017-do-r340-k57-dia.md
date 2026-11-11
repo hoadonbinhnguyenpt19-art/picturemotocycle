@@ -1,0 +1,40 @@
+[🏠 Trang chủ](../../README.md) › [Blade](../../dong-xe/blade.md) › **BO0609**
+
+# BO0609 · Blade 2017 đỏ R340 K57 đĩa
+
+<img src="../../anh/BO0609.jpg" alt="BO0609" width="480">
+
+| | |
+|---|---|
+| **Mã bộ** | `BO0609` |
+| **Tên bộ** | Bộ nhựa (Dàn áo) Blade 2017 đỏ R340 K57 đĩa |
+| **Đời xe** | K57 Balde số 2017 màu đỏ - R340 |
+| **Model** | J19 J20 |
+| **Dòng xe** | Blade |
+| **Số chi tiết** | 17 |
+
+**Bộ liên quan:** [BO0609.1](BO0609.1-blade-2017-do-r340-k57-co.md)
+
+## Chi tiết trong bộ
+
+| STT | Mã chi tiết | Tên chi tiết | Dùng chung | Mã thay thế | Ghi chú |
+|---:|---|---|:---:|---|---|
+| 1 | [`53205K57A00ZA`](../../tra-ma/5320.md#53205k57a00za) | Nắp trước tay lái \*R340C\* |  | [`53205K57V00ZB`](../../tra-ma/5320.md#53205k57v00zb) |  |
+| 2 | [`53250K57A00ZA`](../../tra-ma/5325.md#53250k57a00za) | Bộ ốp nhựa sau tay lái \*NH1\* | ✔ |  |  |
+| 3 | [`61100K57V00ZA`](../../tra-ma/611.md#61100k57v00za) | Chắn bùn A trước R340C |  |  |  |
+| 4 | [`61200KWW640ZB`](../../tra-ma/612.md#61200kww640zb) | Chắn bùn B trước \*NH1\* | ✔ |  |  |
+| 5 | [`64200K57A00ZB`](../../tra-ma/642.md#64200k57a00zb) | Bộ ốp trước trên \*R340\* |  | [`64200K57V10ZD`](../../tra-ma/642.md#64200k57v10zd) |  |
+| 6 | [`64320K57V00`](../../tra-ma/6432.md#64320k57v00) | Ốp ống yếm chính | ✔ |  |  |
+| 7 | [`64340K57A00`](../../tra-ma/6434.md#64340k57a00) | Ốp trung tâm | ✔ |  |  |
+| 8 | [`64400K57V00ZD`](../../tra-ma/6440.md#64400k57v00zd) | Ốp ống yếm phải \*R340C\* |  |  |  |
+| 9 | [`64450K57V00ZD`](../../tra-ma/6445.md#64450k57v00zd) | Ốp ống yếm trái \*R340C\* |  |  |  |
+| 10 | [`64560K57V00ZA`](../../tra-ma/645.md#64560k57v00za) | Ốp dưới sườn phải | ✔ |  |  |
+| 11 | [`64565K57V00ZA`](../../tra-ma/645.md#64565k57v00za) | Ốp dưới sườn trái | ✔ |  |  |
+| 12 | [`64600K57A00ZB`](../../tra-ma/6460.md#64600k57a00zb) | Bộ ốp sườn phải \*R340\* |  |  |  |
+| 13 | [`64650K57A00ZB`](../../tra-ma/6465.md#64650k57a00zb) | Bộ ốp sườn trái \*R340\* |  |  |  |
+| 14 | [`64750K57A00ZB`](../../tra-ma/647.md#64750k57a00zb) | Bộ cánh yếm phải \*R340\* |  |  |  |
+| 15 | [`64770K57A00ZB`](../../tra-ma/647.md#64770k57a00zb) | Bộ cánh yếm trái \*R340\* |  |  |  |
+| 16 | [`80110K57V00ZC`](../../tra-ma/8011.md#80110k57v00zc) | Bộ chắn bùn sau | ✔ |  |  |
+| 17 | [`83500K57V00ZC`](../../tra-ma/8350.md#83500k57v00zc) | Bộ ốp đuôi sau xe |  |  |  |
+
+<sub>Cập nhật 11/11/2026</sub>

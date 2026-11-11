@@ -1,0 +1,40 @@
+[🏠 Trang chủ](../../README.md) › [Blade](../../dong-xe/blade.md) › **BO0608**
+
+# BO0608 · Blade 2017 trắng NHB55 K57 đĩa
+
+<img src="../../anh/BO0608.jpg" alt="BO0608" width="480">
+
+| | |
+|---|---|
+| **Mã bộ** | `BO0608` |
+| **Tên bộ** | Bộ nhựa (Dàn áo) Blade 2017 trắng NHB55 K57 đĩa |
+| **Đời xe** | K57 Balde số 2017 màu trắng - NHB55 |
+| **Model** | J19 J20 |
+| **Dòng xe** | Blade |
+| **Số chi tiết** | 17 |
+
+**Bộ liên quan:** [BO0608.1](BO0608.1-blade-2017-trang-nhb55-k57-co.md)
+
+## Chi tiết trong bộ
+
+| STT | Mã chi tiết | Tên chi tiết | Dùng chung | Mã thay thế | Ghi chú |
+|---:|---|---|:---:|---|---|
+| 1 | [`53205K57A00ZB`](../../tra-ma/5320.md#53205k57a00zb) | Nắp trước tay lái \*NHB55P\* |  | [`53205K57V00ZC`](../../tra-ma/5320.md#53205k57v00zc) |  |
+| 2 | [`53250K57A00ZA`](../../tra-ma/5325.md#53250k57a00za) | Bộ ốp nhựa sau tay lái \*NH1\* | ✔ |  |  |
+| 3 | [`61100K57V00ZB`](../../tra-ma/611.md#61100k57v00zb) | Chắn bùn A trước NHB55P |  |  |  |
+| 4 | [`61200KWW640ZB`](../../tra-ma/612.md#61200kww640zb) | Chắn bùn B trước \*NH1\* | ✔ |  |  |
+| 5 | [`64200K57A30ZB`](../../tra-ma/642.md#64200k57a30zb) | Bộ mặt nạ trước \*NHB55P\* |  | [`64200K57V50ZC`](../../tra-ma/642.md#64200k57v50zc) |  |
+| 6 | [`64320K57V00`](../../tra-ma/6432.md#64320k57v00) | Ốp ống yếm chính | ✔ |  |  |
+| 7 | [`64340K57A00`](../../tra-ma/6434.md#64340k57a00) | Ốp trung tâm | ✔ |  |  |
+| 8 | [`64400K57V00ZB`](../../tra-ma/6440.md#64400k57v00zb) | Ốp ống yếm phải \*NHB55P\* |  |  |  |
+| 9 | [`64450K57V00ZB`](../../tra-ma/6445.md#64450k57v00zb) | Ốp ống yếm trái \*NHB55P\* |  |  |  |
+| 10 | [`64560K57V00ZA`](../../tra-ma/645.md#64560k57v00za) | Ốp dưới sườn phải | ✔ |  |  |
+| 11 | [`64565K57V00ZA`](../../tra-ma/645.md#64565k57v00za) | Ốp dưới sườn trái | ✔ |  |  |
+| 12 | [`64600K57A00ZA`](../../tra-ma/6460.md#64600k57a00za) | Bộ ốp sườn phải \*NHB55\* |  |  |  |
+| 13 | [`64650K57A00ZA`](../../tra-ma/6465.md#64650k57a00za) | Bộ ốp sườn trái \*NHB55\* |  |  |  |
+| 14 | [`64750K57A00ZA`](../../tra-ma/647.md#64750k57a00za) | Bộ cánh yếm phải \*NHB55\* |  |  |  |
+| 15 | [`64770K57A00ZA`](../../tra-ma/647.md#64770k57a00za) | Bộ cánh yếm trái \*NHB55\* |  |  |  |
+| 16 | [`80110K57V00ZC`](../../tra-ma/8011.md#80110k57v00zc) | Bộ chắn bùn sau | ✔ |  |  |
+| 17 | [`83500K57V00ZC`](../../tra-ma/8350.md#83500k57v00zc) | Bộ ốp đuôi sau xe |  |  |  |
+
+<sub>Cập nhật 11/11/2026</sub>

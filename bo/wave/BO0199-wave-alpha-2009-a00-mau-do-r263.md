@@ -1,0 +1,37 @@
+[🏠 Trang chủ](../../README.md) › [Wave](../../dong-xe/wave.md) › **BO0199**
+
+# BO0199 · Wave Alpha 2009 A00 Màu Đỏ R263
+
+<img src="../../anh/BO0199.jpg" alt="BO0199" width="480">
+
+| | |
+|---|---|
+| **Mã bộ** | `BO0199` |
+| **Tên bộ** | Bộ nhựa (Dàn áo) Wave Alpha 2009 A00 Màu Đỏ R263 |
+| **Đời xe** | WAVE Alpha năm 2009 Màu Đỏ R263 |
+| **Model** | T6 |
+| **Dòng xe** | Wave |
+| **Số chi tiết** | 16 |
+
+## Chi tiết trong bộ
+
+| STT | Mã chi tiết | Tên chi tiết | Dùng chung | Mã thay thế | Ghi chú |
+|---:|---|---|:---:|---|---|
+| 1 | [`33710KTL641`](../../tra-ma/337.md#33710ktl641) | Bộ chóa đèn & chắn bùn sau | ✔ |  |  |
+| 2 | [`53205KTLV00ZN`](../../tra-ma/5320.md#53205ktlv00zn) | Nắp trước tay lái \*R263\* |  |  |  |
+| 3 | [`53206KTL640`](../../tra-ma/5320.md#53206ktl640) | Nắp sau tay lái | ✔ |  |  |
+| 4 | [`61100KTL640ZC`](../../tra-ma/611.md#61100ktl640zc) | Chắn bùn A trước \*R263\* |  |  |  |
+| 5 | [`61200KTL640`](../../tra-ma/612.md#61200ktl640) | Chắn bùn B trước | ✔ |  |  |
+| 6 | [`64200KWYA00ZA`](../../tra-ma/642.md#64200kwya00za) | Bộ ốp yếm phải \*NH411M\* | ✔ |  |  |
+| 7 | [`64250KWYA00ZA`](../../tra-ma/642.md#64250kwya00za) | Bộ ốp yếm trái \*NH411M\* | ✔ |  |  |
+| 8 | [`64300KVR910ZN`](../../tra-ma/6430.md#64300kvr910zn) | Bộ mặt nạ trước \*R263\* |  | [`64300KWYA40ZE`](../../tra-ma/6430.md#64300kwya40ze) |  |
+| 9 | [`64320KTL680`](../../tra-ma/6432.md#64320ktl680) | ốp ống yếm chính | ✔ |  |  |
+| 10 | [`64350KTL740`](../../tra-ma/6435.md#64350ktl740) | Tấm ốp trung tâm phải | ✔ | [`64340KTL640`](../../tra-ma/6434.md#64340ktl640) |  |
+| 11 | [`64360KTL740`](../../tra-ma/6436.md#64360ktl740) | Tấm ốp trung tâm trái | ✔ | [`64345KTL640`](../../tra-ma/6434.md#64345ktl640) |  |
+| 12 | [`64430KTL640ZR`](../../tra-ma/6443.md#64430ktl640zr) | Cánh yếm phải \*R263\* |  |  |  |
+| 13 | [`64600KWYA00ZB`](../../tra-ma/6460.md#64600kwya00zb) | Bộ ốp sườn phải \*R263\* |  |  |  |
+| 14 | [`64650KWYA00ZB`](../../tra-ma/6465.md#64650kwya00zb) | Bộ ốp sườn trái \*R263\* |  |  |  |
+| 15 | [`64770KWYA00ZB`](../../tra-ma/647.md#64770kwya00zb) | Bộ cánh yếm trái \*R263\* |  |  |  |
+| 16 | [`83510KTL640ZC`](../../tra-ma/8351.md#83510ktl640zc) | ốp đuôi sau \*R263\* |  |  |  |
+
+<sub>Cập nhật 11/11/2026</sub>

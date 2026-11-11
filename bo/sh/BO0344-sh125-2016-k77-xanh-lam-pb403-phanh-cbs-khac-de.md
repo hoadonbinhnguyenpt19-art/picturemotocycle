@@ -1,0 +1,57 @@
+[🏠 Trang chủ](../../README.md) › [SH](../../dong-xe/sh.md) › **BO0344**
+
+# BO0344 · SH125 2016 K77 Xanh Lam PB403 phanh CBS (khác dè)
+
+<img src="../../anh/BO0344.jpg" alt="BO0344" width="480">
+
+| | |
+|---|---|
+| **Mã bộ** | `BO0344` |
+| **Tên bộ** | Bộ nhựa (Dàn áo) SH125 2016 K77 Xanh Lam PB403 phanh CBS (khác dè) |
+| **Đời xe** | SH 125&150  Năm 2016 Màu Xanh Lam - PB403 |
+| **Model** | Z11(125cc)Z12(150cc) |
+| **Dòng xe** | SH |
+| **Số chi tiết** | 34 |
+
+**Bộ liên quan:** [BO0344.1](BO0344.1-sh125-2016-k77-xanh-lam-pb403-phanh-abs-khac-de.md)
+
+## Chi tiết trong bộ
+
+| STT | Mã chi tiết | Tên chi tiết | Dùng chung | Mã thay thế | Ghi chú |
+|---:|---|---|:---:|---|---|
+| 1 | [`53150K77V00ZB`](../../tra-ma/531.md#53150k77v00zb) | Bộ nắp trước tay lái \*PB403P\* |  |  |  |
+| 2 | [`53160K77V00ZA`](../../tra-ma/531.md#53160k77v00za) | Bộ ốp sau tay lái \*NH1\* | ✔ |  |  |
+| 3 | [`53208K77V00ZB`](../../tra-ma/5320.md#53208k77v00zb) | Trang trí ốp tay lái \*PB403P\* |  |  |  |
+| 4 | [`53209K77V00ZA`](../../tra-ma/5320.md#53209k77v00za) | Nắp ốp đồng hồ \*NH1\* | ✔ |  |  |
+| 5 | [`53211K77V00ZA`](../../tra-ma/5321.md#53211k77v00za) | Chụp nắp tay lái trước phải \*NH1\* | ✔ |  |  |
+| 6 | [`53212K77V00ZA`](../../tra-ma/5321.md#53212k77v00za) | Chụp nắp tay lái trước trái \*NH1\* | ✔ |  |  |
+| 7 | [`61200K77V00ZB`](../../tra-ma/612.md#61200k77v00zb) | Bộ chắn bùn trước \*PB403\* |  | [`61200K77V10ZB`](../../tra-ma/612.md#61200k77v10zb) |  |
+| 8 | [`64300K77V00ZB`](../../tra-ma/6430.md#64300k77v00zb) | Trang trí ốp trước \*PB403P\* |  |  |  |
+| 9 | [`64301K77V00`](../../tra-ma/6430.md#64301k77v00) | Trang trí ốp dưới | ✔ |  |  |
+| 10 | [`64302K77V00ZB`](../../tra-ma/6430.md#64302k77v00zb) | Nắp trên ốp trước phải \*PB403P\* |  |  |  |
+| 11 | [`64303K77V00ZB`](../../tra-ma/6430.md#64303k77v00zb) | Nắp trên ốp trước trái \*PB403P\* |  |  |  |
+| 12 | [`64304K77V00ZA`](../../tra-ma/6430.md#64304k77v00za) | Ốp dưới trước \*NH1\* | ✔ |  |  |
+| 13 | [`64306K77V00ZA`](../../tra-ma/6430.md#64306k77v00za) | Bộ ốp trang trí mặt trước \*TYPE1\* | ✔ |  |  |
+| 14 | [`64311K77V00ZA`](../../tra-ma/6431.md#64311k77v00za) | Tấm bắt sàn \*NH1\* | ✔ |  |  |
+| 15 | [`64312K77V00ZA`](../../tra-ma/6431.md#64312k77v00za) | Ốp trung tâm \*NH1\* | ✔ |  |  |
+| 16 | [`64314K77V00ZA`](../../tra-ma/6431.md#64314k77v00za) | Nắp ốp đầu động cơ \*NH1\* | ✔ |  |  |
+| 17 | [`64315K77V00ZA`](../../tra-ma/6431.md#64315k77v00za) | Nắp hộp chứa dung dịch làm mát \*NH1\* | ✔ |  |  |
+| 18 | [`64317K77V00ZA`](../../tra-ma/6431.md#64317k77v00za) | Nắp dưới bình ắc quy \*NH1\* | ✔ |  |  |
+| 19 | [`64321K77V00ZB`](../../tra-ma/6432.md#64321k77v00zb) | Ốp sàn phải \*PB403P\* |  |  |  |
+| 20 | [`64322K77V00ZE`](../../tra-ma/6432.md#64322k77v00ze) | Ốp sàn trái \*PB403P\* |  |  |  |
+| 21 | [`64331K77V00`](../../tra-ma/6433.md#64331k77v00) | Ốp dưới | ✔ |  |  |
+| 22 | [`80101K77V00`](../../tra-ma/8010.md#80101k77v00) | Chắn bùn sau B | ✔ |  |  |
+| 23 | [`80102K01D10`](../../tra-ma/8010.md#80102k01d10) | Chắn bùn sau C | ✔ |  |  |
+| 24 | [`80105K77V00ZA`](../../tra-ma/8010.md#80105k77v00za) | Nắp đèn soi biển số \*NH1\* | ✔ |  |  |
+| 25 | [`80106K77V10`](../../tra-ma/8010.md#80106k77v10) | Nắp trên động cơ | ✔ |  |  |
+| 26 | [`80150K77V00ZA`](../../tra-ma/8015.md#80150k77v00za) | Chắn bùn sau \*TYPE1\* | ✔ |  |  |
+| 27 | [`81131K77V00ZA`](../../tra-ma/8113.md#81131k77v00za) | Ốp trên bên trong \*NH1\* | ✔ |  |  |
+| 28 | [`81133K77V00ZA`](../../tra-ma/8113.md#81133k77v00za) | Nắp hộc đồ trước \*NH1\* | ✔ |  |  |
+| 29 | [`81134K77V00ZB`](../../tra-ma/8113.md#81134k77v00zb) | Tấm bảo vệ cổ lái \*PB403P\* |  |  |  |
+| 30 | [`81137K77V00ZA`](../../tra-ma/8113.md#81137k77v00za) | Nắp hộc đồ trước \*NH1\* | ✔ |  |  |
+| 31 | [`83200K77V00ZB`](../../tra-ma/832.md#83200k77v00zb) | Bộ ốp sườn phải \*PB403\* |  |  |  |
+| 32 | [`83300K77V00ZB`](../../tra-ma/833.md#83300k77v00zb) | Bộ ốp sườn trái \*PB403\* |  |  |  |
+| 33 | [`83410K77V00ZA`](../../tra-ma/834.md#83410k77v00za) | Nắp ốp để chân sau phải \*NH1\* | ✔ |  |  |
+| 34 | [`83420K77V00ZA`](../../tra-ma/834.md#83420k77v00za) | Nắp ốp để chân sau trái \*NH1\* | ✔ |  |  |
+
+<sub>Cập nhật 11/11/2026</sub>

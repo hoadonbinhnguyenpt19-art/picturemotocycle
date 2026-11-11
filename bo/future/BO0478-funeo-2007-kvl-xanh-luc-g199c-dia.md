@@ -1,0 +1,49 @@
+[🏠 Trang chủ](../../README.md) › [Future](../../dong-xe/future.md) › **BO0478**
+
+# BO0478 · Funeo 2007 KVL Xanh lục G199C đĩa
+
+> _Chưa có ảnh đời xe._
+
+| | |
+|---|---|
+| **Mã bộ** | `BO0478` |
+| **Tên bộ** | Bộ nhựa (Dàn áo) Funeo 2007 KVL Xanh lục G199C đĩa |
+| **Đời xe** | Future neo năm 2007 Màu Xanh lục G199C |
+| **Model** | U4(đĩa nan),U6(cơ nan) |
+| **Dòng xe** | Future |
+| **Số chi tiết** | 26 |
+
+**Bộ liên quan:** [BO0478.1](BO0478.1-funeo-2007-kvl-xanh-luc-g199c-co.md)
+
+## Chi tiết trong bộ
+
+| STT | Mã chi tiết | Tên chi tiết | Dùng chung | Mã thay thế | Ghi chú |
+|---:|---|---|:---:|---|---|
+| 1 | [`53205KTM950YF`](../../tra-ma/5320.md#53205ktm950yf) | Nắp trước tay lái \*G199C\* |  |  |  |
+| 2 | [`53206KTM970`](../../tra-ma/5320.md#53206ktm970) | Nắp sau tay lái | ✔ |  |  |
+| 3 | [`53270KVL900ZA`](../../tra-ma/5327.md#53270kvl900za) | Bộ ốp đồng hồ tốc độ \*NH411M\* | ✔ |  |  |
+| 4 | [`61100KTM970ZP`](../../tra-ma/611.md#61100ktm970zp) | Chắn bùn A trước \*G199C\* |  |  |  |
+| 5 | [`61200KTM970`](../../tra-ma/612.md#61200ktm970) | Chắn bùn B trước | ✔ |  |  |
+| 6 | [`64200KVLV30ZB`](../../tra-ma/642.md#64200kvlv30zb) | Bộ ốp ống yếm phải \*G199C\* |  |  |  |
+| 7 | [`64250KVLV30ZB`](../../tra-ma/642.md#64250kvlv30zb) | Bộ ốp ống yếm trái \*G199C\* |  |  |  |
+| 8 | [`64300KTM970ZA`](../../tra-ma/6430.md#64300ktm970za) | Bộ mặt nạ trước NHA76M | ✔ |  |  |
+| 9 | [`64310KPH700ZV`](../../tra-ma/6431.md#64310kph700zv) | Tấm ốpđộng cơ \*NHA62M\* | ✔ |  |  |
+| 10 | [`64320KPH700`](../../tra-ma/6432.md#64320kph700) | ốp ống yếm chính | ✔ | [`64320KVL930ZA`](../../tra-ma/6432.md#64320kvl930za) |  |
+| 11 | [`64325KPH700`](../../tra-ma/6432.md#64325kph700) | ốp nhựa trung tâm | ✔ | [`64320KPH700`](../../tra-ma/6432.md#64320kph700) |  |
+| 12 | [`64340KPH700`](../../tra-ma/6434.md#64340kph700) | Bộ ốp thân trước(Trung tâm) | ✔ |  |  |
+| 13 | [`64405KPH700ZD`](../../tra-ma/6440.md#64405kph700zd) | Tấm thông gió yếm phải \*NH411M | ✔ |  |  |
+| 14 | [`64435KPH700`](../../tra-ma/6443.md#64435kph700) | ốp trong yếm bên phải | ✔ |  |  |
+| 15 | [`64445KPH700`](../../tra-ma/6444.md#64445kph700) | ốp trong yếm bên trái | ✔ |  |  |
+| 16 | [`64455KPH700ZD`](../../tra-ma/6445.md#64455kph700zd) | Tấm thông gió yếm trái \*NH411M | ✔ |  |  |
+| 17 | [`64500KTM970ZL`](../../tra-ma/645.md#64500ktm970zl) | Mặt nạ trước \*G199C\* |  |  |  |
+| 18 | [`64520KTM970ZA`](../../tra-ma/645.md#64520ktm970za) | Tấm thông gió mặt nạ trước \*NH | ✔ |  |  |
+| 19 | [`64600KVLV30ZB`](../../tra-ma/6460.md#64600kvlv30zb) | Bộ ốp sườn phải \*G199C\* |  |  |  |
+| 20 | [`64650KVLV30ZB`](../../tra-ma/6465.md#64650kvlv30zb) | Bộ ốp sườn trái \*G199C\* |  |  |  |
+| 21 | [`64700KVLV30ZB`](../../tra-ma/647.md#64700kvlv30zb) | Bộ cánh yếm phải \*G199C\* |  |  |  |
+| 22 | [`64750KVLV30ZB`](../../tra-ma/647.md#64750kvlv30zb) | Bộ cánh yếm trái \*G199C\* |  |  |  |
+| 23 | [`64800KVLV30ZB`](../../tra-ma/648.md#64800kvlv30zb) | Bộ ốp cốp phải \*G199C\* |  |  |  |
+| 24 | [`64850KVLV30ZB`](../../tra-ma/648.md#64850kvlv30zb) | Bộ ốp cốp trái \*G199C\* |  |  |  |
+| 25 | [`80100KPH700`](../../tra-ma/8010.md#80100kph700) | Chắn bùn sau | ✔ |  |  |
+| 26 | [`83600KVLV00ZJ`](../../tra-ma/8360.md#83600kvlv00zj) | Bộốp đuôi sau \*G199C\* |  |  |  |
+
+<sub>Cập nhật 11/11/2026</sub>
