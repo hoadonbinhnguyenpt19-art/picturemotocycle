@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tra cứu ảnh bộ kit (bản thử nhiều ảnh)</title>
+<style>
+  :root{--nen:#f4f5f7;--the:#fff;--chu:#1d2433;--phu:#667085;--vien:#e3e6ec;--nhan:#c8102e;--xanh:#1f6feb;--tot:#127a3d;--vang:#9a6700}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--nen);color:var(--chu)}
+  header{background:#111827;color:#fff;padding:14px 18px;position:sticky;top:0;z-index:5}
+  header h1{margin:0 0 10px;font-size:18px;font-weight:600}
+  .thanh{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  #o-tim{flex:1 1 280px;padding:11px 12px;border-radius:8px;border:0;font-size:16px}
+  select,label.chk{background:#1f2937;color:#fff;border:1px solid #374151;border-radius:8px;padding:9px 10px;font-size:14px}
+  label.chk{display:flex;gap:6px;align-items:center;cursor:pointer}
+  #dem{color:#cbd5e1;font-size:13px;margin-top:8px}
+  main{max-width:1100px;margin:0 auto;padding:14px}
+  .dong{display:flex;gap:12px;align-items:center;background:var(--the);border:1px solid var(--vien);border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer}
+  .dong:hover{border-color:#9aa4b2}
+  .dong.khong-anh{cursor:default;opacity:.75}
+  .anh-nho{width:64px;height:64px;flex:0 0 64px;border-radius:6px;background:#eef0f3 center/cover no-repeat;border:1px solid var(--vien);display:flex;align-items:center;justify-content:center;color:#98a2b3;font-size:11px;text-align:center}
+  .ma{font-weight:700;font-family:ui-monospace,Consolas,monospace}
+  .ten{margin:2px 0 4px}
+  .nhan{display:inline-block;font-size:11.5px;padding:2px 7px;border-radius:999px;margin-right:4px;background:#eef0f3;color:var(--phu)}
+  .nhan.dung{background:#e6f4ea;color:var(--tot)}
+  .nhan.tk{background:#fff4d6;color:var(--vang)}
+  #them[hidden]{display:none}
+  #them{display:block;margin:14px auto;padding:10px 18px;border-radius:8px;border:1px solid var(--vien);background:#fff;cursor:pointer;font-size:14px}
+  /* Khung xem ảnh */
+  #xem{position:fixed;inset:0;background:rgba(10,12,16,.92);display:none;flex-direction:column;z-index:10}
+  #xem.mo{display:flex}
+  #xem .tren{display:flex;gap:8px;align-items:center;padding:10px 14px;color:#fff;flex-wrap:wrap}
+  #xem .tren .tieu{flex:1;min-width:200px;font-size:14px}
+  #xem button,#xem a{background:#263041;color:#fff;border:1px solid #3b475c;border-radius:7px;padding:7px 11px;font-size:13px;cursor:pointer;text-decoration:none}
+  #khung-anh{flex:1;overflow:auto;text-align:center;padding:0 10px 20px}
+  #khung-anh img{max-width:100%;background:#fff;transition:max-width .15s}
+  #khung-anh.phong img{max-width:none;width:180%}
+  .nhan.nhieu{background:#e0ecff;color:var(--xanh)}
+  #xem .dem-anh{color:#cbd5e1;font-size:13px;min-width:48px;text-align:center}
+  #xem button[hidden]{display:none}
+  .rong{text-align:center;color:var(--phu);padding:40px 0}
+  footer{text-align:center;color:var(--phu);font-size:12px;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Tra cứu ảnh bộ kit (catalog phụ tùng)</h1>
+  <div class="thanh">
+    <input id="o-tim" type="search" placeholder="Gõ mã bộ hoặc tên: KIT00169, đầu quy lát, Vision 2021…" autofocus>
+    <select id="loc-nguon"><option value="">Mọi nguồn</option></select>
+    <label class="chk"><input type="checkbox" id="chi-co-anh" checked> Chỉ bộ có ảnh</label>
+  </div>
+  <div id="dem">Đang tải dữ liệu…</div>
+</header>
+
+<main>
+  <div id="ds"></div>
+  <button id="them" hidden>Xem thêm</button>
+</main>
+
+<div id="xem" role="dialog" aria-modal="true">
+  <div class="tren">
+    <div class="tieu" id="xem-tieu"></div>
+    <button id="nut-truoc" hidden>‹ Ảnh trước</button><span class="dem-anh" id="dem-anh"></span><button id="nut-sau" hidden>Ảnh sau ›</button>
+    <button id="nut-phong">Phóng to</button>
+    <button id="nut-chep">Chép link ảnh</button>
+    <a id="nut-mo" target="_blank" rel="noopener">Mở ảnh gốc</a>
+    <button id="nut-dong">Đóng (Esc)</button>
+  </div>
+  <div id="khung-anh"><img id="xem-anh" alt=""></div>
+</div>
+
+<footer>Bản thử nhiều ảnh cho 1 mã · Dữ liệu: data/danh-sach-anh-bo-kit.xlsx · Ảnh: thư mục anh-bo-kit</footer>
+
+<script src="data/danh-sach-bo-kit.js"></script>
+<script>
+(function(){
+  var DL = window.KIT_DATA || [];
+  var MOI_LAN = 150;
+  var $ = function(id){return document.getElementById(id)};
+  var oTim=$("o-tim"), locNguon=$("loc-nguon"), chiCoAnh=$("chi-co-anh"),
+      ds=$("ds"), dem=$("dem"), them=$("them");
+  var ketQua=[], daHien=0;
+
+  // Bỏ dấu tiếng Việt để gõ "dau quy lat" vẫn tìm được "ĐẦU QUY LÁT"
+  function boDau(s){
+    return (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/đ/g,"d").replace(/Đ/g,"D").toLowerCase();
+  }
+  DL.forEach(function(m){ m._tim = boDau(m.ma+" "+m.ten+" "+m.pdf+" "+m.khoi); });
+
+  // Danh sách nguồn
+  Array.from(new Set(DL.map(function(m){return m.nguon}))).filter(Boolean).forEach(function(n){
+    var o=document.createElement("option"); o.value=n; o.textContent=n; locNguon.appendChild(o);
+  });
+
+  function dsAnh(m){ return [m.anh].concat(m.them||[]).filter(Boolean); }
+  function duongTen(t){ return "anh-bo-kit/"+encodeURIComponent(t); }
+  function duongAnh(m){ return duongTen(m.anh); }
+  function linkAnh(m){ var t=dsAnh(m)[soAnh]; return (soAnh===0 && m.link) || new URL(duongTen(t), location.href).href; }
+  function esc(s){ return (s||"").replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]}); }
+
+  function loc(){
+    var tu = boDau(oTim.value).trim().split(/\s+/).filter(Boolean);
+    var nguon = locNguon.value, coAnh = chiCoAnh.checked;
+    ketQua = DL.filter(function(m){
+      if (coAnh && !m.anh) return false;
+      if (nguon && m.nguon!==nguon) return false;
+      for (var i=0;i<tu.length;i++) if (m._tim.indexOf(tu[i])<0) return false;
+      return true;
+    });
+    daHien=0; ds.innerHTML="";
+    dem.textContent = ketQua.length.toLocaleString("vi-VN")+" kết quả / "+DL.length.toLocaleString("vi-VN")+" mã bộ";
+    if (!ketQua.length){ ds.innerHTML='<div class="rong">Không tìm thấy bộ nào.</div>'; them.hidden=true; return; }
+    hienThem();
+  }
+
+  function hienThem(){
+    var frag=document.createDocumentFragment();
+    ketQua.slice(daHien, daHien+MOI_LAN).forEach(function(m){
+      var d=document.createElement("div");
+      d.className="dong"+(m.anh?"":" khong-anh");
+      var nhanGhiChu = m.ghichu.indexOf("Đúng trang")===0 ? "dung" : (m.ghichu.indexOf("tham khảo")>=0 ? "tk" : "");
+      d.innerHTML =
+        '<div class="anh-nho"'+(m.anh?' style="background-image:url(\''+duongAnh(m)+'\')"':'')+'>'+(m.anh?'':'Chưa<br>có ảnh')+'</div>'+
+        '<div><div class="ma">'+esc(m.ma)+'</div>'+
+        '<div class="ten">'+esc(m.ten)+'</div>'+
+        (m.khoi?'<span class="nhan">Khối '+esc(m.khoi)+'</span>':'')+
+        (m.trang?'<span class="nhan">Trang '+esc(m.trang)+'</span>':'')+
+        (m.khop?'<span class="nhan">Khớp '+esc(m.khop)+'</span>':'')+
+        ((m.them&&m.them.length)?'<span class="nhan nhieu">'+(m.them.length+1)+' ảnh</span>':'')+
+        (m.ghichu?'<span class="nhan '+nhanGhiChu+'">'+esc(m.ghichu)+'</span>':'')+
+        '</div>';
+      if (m.anh) d.onclick=function(){ moAnh(m); };
+      frag.appendChild(d);
+    });
+    ds.appendChild(frag);
+    daHien += MOI_LAN;
+    them.hidden = daHien >= ketQua.length;
+    them.textContent = "Xem thêm ("+(ketQua.length-Math.min(daHien,ketQua.length))+" còn lại)";
+  }
+
+  // Xem ảnh
+  var xem=$("xem"), khung=$("khung-anh"), dangXem=null, soAnh=0;
+  function hienAnh(i){
+    var ds=dsAnh(dangXem); soAnh=(i+ds.length)%ds.length;
+    $("xem-anh").src = duongTen(ds[soAnh]);
+    $("nut-mo").href = duongTen(ds[soAnh]);
+    var nhieu=ds.length>1;
+    $("nut-truoc").hidden=!nhieu; $("nut-sau").hidden=!nhieu;
+    $("dem-anh").textContent = nhieu ? (soAnh+1)+" / "+ds.length : "";
+    khung.scrollTop=0;
+  }
+  $("nut-truoc").onclick=function(){ hienAnh(soAnh-1); };
+  $("nut-sau").onclick=function(){ hienAnh(soAnh+1); };
+  function moAnh(m){
+    dangXem=m;
+    $("xem-tieu").textContent = m.ma+" — "+m.ten+(m.pdf?"  ·  "+m.pdf+" tr."+m.trang:"");
+    hienAnh(0);
+    khung.classList.remove("phong"); $("nut-phong").textContent="Phóng to";
+    xem.classList.add("mo"); khung.scrollTop=0;
+    history.replaceState(null,"","#"+encodeURIComponent(m.ma));
+  }
+  function dong(){ xem.classList.remove("mo"); history.replaceState(null,"",location.pathname+location.search); }
+  $("nut-dong").onclick=dong;
+  $("nut-phong").onclick=function(){ var p=khung.classList.toggle("phong"); this.textContent=p?"Thu nhỏ":"Phóng to"; };
+  $("nut-chep").onclick=function(){
+    var b=this, t=linkAnh(dangXem);
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(
+      function(){ b.textContent="Đã chép ✓"; setTimeout(function(){b.textContent="Chép link ảnh"},1500); },
+      function(){ prompt("Chép link này:", t); });
+  };
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape") dong();
+    if(xem.classList.contains("mo") && e.key==="ArrowLeft") hienAnh(soAnh-1);
+    if(xem.classList.contains("mo") && e.key==="ArrowRight") hienAnh(soAnh+1);
+  });
+
+  var hen; oTim.addEventListener("input",function(){ clearTimeout(hen); hen=setTimeout(loc,150); });
+  locNguon.onchange=loc; chiCoAnh.onchange=loc; them.onclick=hienThem;
+
+  if (!DL.length){ dem.textContent="Không đọc được data/danh-sach-bo-kit.js — chạy cong-cu/cap_nhat_du_lieu.py"; return; }
+  loc();
+  // Mở thẳng một mã qua link: .../index.html#KIT00169-125
+  if (location.hash){
+    var ma=decodeURIComponent(location.hash.slice(1));
+    var m=DL.find(function(x){return x.ma===ma && x.anh});
+    if (m){ oTim.value=ma; loc(); moAnh(m); }
+  }
+})();
+</script>
+</body>
+</html>
