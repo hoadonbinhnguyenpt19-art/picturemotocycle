@@ -1,0 +1,15 @@
+# Rác của macOS (có sẵn trong file zip)
+__MACOSX/
+.DS_Store
+._*
+
+# File khoá tạm khi đang mở Excel/Word
+~$*
+
+# Rác Windows
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
